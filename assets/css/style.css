@@ -1,0 +1,334 @@
+html {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://wallpaperaccess.com/full/686998.jpg");
+  scroll-behavior: smooth;
+  
+}
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  animation: fadeInAnimation ease 8s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+}
+
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+   } 
+  }
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0); 
+}
+
+#mainContainer {
+  width: 100%;
+  min-height: 100%;
+}
+
+#portfolioContainer1 {
+  width: 100%;
+  height: 100%;
+}
+
+#portfolioContainer5 {
+  width: 50%;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 0 auto;
+  color: white;
+  font-size: 30px; 
+  letter-spacing: 5px;
+  text-shadow: 0px 0px 20px rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+#bioTitle {
+  color: white;
+  letter-spacing: 10px;
+  text-align: center;
+  margin: 1%;
+
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+#digitalAssetMonitorTitle {
+  color: white;
+  letter-spacing: 10px;
+  text-align: center;
+  margin: 1%;
+  float: left;
+  position: absolute;
+  bottom: 0;
+  font-size: 50px;
+}
+
+#dayPlannerTitle {
+  color: white;
+  letter-spacing: 10px;
+  text-align: center;
+  margin: 1%;
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 50px;
+}
+
+#passwordGeneratorTitle {
+  color: white;
+  letter-spacing: 10px;
+  text-align: center;
+  margin: 1%;
+  float: left;
+  position: absolute;
+  bottom: 0;
+  font-size: 50px;
+}
+
+h3 {
+  letter-spacing: 18px;
+  color: rgba(0, 0, 0, 0.76);
+  text-shadow: 1px 1px 10px rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
+  top: 250px;
+}
+
+
+h6 {
+  letter-spacing: 18px;
+  color: rgba(17, 17, 17, 0.541);
+  text-shadow: 1px 1px 10px rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
+  top: 250px;
+
+}
+
+.firstContainer {
+  width: auto;
+  background-color: rgb(0, 0, 0);
+  min-height: 1080px;
+  margin: 0px auto 10px auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://wallpaperaccess.com/full/686998.jpg");
+  
+}
+
+
+
+.secondContainer {
+  width: auto;
+ 
+  height: 800px;
+  margin: 0px auto 10px auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://images.wallpaperscraft.com/image/moss_trees_forest_113541_2560x1440.jpg");
+  display: flex;
+  justify-content: center;
+ 
+ 
+}
+
+#skillsTitle {
+  color: rgba(255, 255, 255, 0.774);
+  text-shadow: 0px 0px 10px black;
+  letter-spacing: 16px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.skillContain {
+  width: 30%;
+  min-width: 600px;
+  height: 68%;
+  background-color: rgba(255, 255, 255, 0.295);
+  margin: 2% auto;
+  padding: 20px;
+  background: linear-gradient(270deg, #ffffff8e, #dbdbdb52, #cccccc4d, #dddddd65, #f2f2f291);
+ background-size: 1000% 1000%;
+
+-webkit-animation: AnimationName 19s ease infinite;
+-moz-animation: AnimationName 19s ease infinite;
+animation: AnimationName 19s ease infinite;
+ 
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+
+.fab {
+  margin: 15px 30px;
+  opacity: .8;
+}
+
+.fab:hover {
+  opacity: 1;
+  transition: .3s;
+  color: rgba(255, 255, 255, 0.781);
+  
+}
+
+.thirdContainer {
+  width: auto;
+ 
+  height: 800px;
+  margin: 0px auto 10px auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/DAMscreenshot2.png)
+}
+
+.customContainer {
+  width: 90%;
+  background-color: white;
+}
+
+.box1 {
+  width: 20%;
+  background-color: rgba(255, 255, 255, 0.164);
+  height: 40%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.767);
+  padding: 40px;
+  text-align: center;
+  clear: both;
+  position: relative;
+  top: 25%;
+}
+#mobileDAM {
+  margin: 0 auto;
+
+}
+#DAM1 {
+  width: 90%;
+  height: 95%;
+  margin: auto;
+  opacity: .7;
+}
+
+.fourthContainer {
+  width: auto;
+
+  height: 800px;
+  margin: 0px auto 10px auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/dayPlannerImg.png)
+}
+
+.fifthContainer {
+  width: auto;
+
+  height: 800px;
+  margin: 0px auto 10px auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/passGenSS.png)
+}
+
+.quoteContainer1 {
+  width: auto;
+  background-color: rgb(0, 0, 0);
+  height: 1080px;
+  margin: 0px auto 0px auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("https://wallpaperaccess.com/full/1314186.jpg");
+  display: flex;
+  justify-content: center;
+  margin: 0px auto 10px auto;
+  
+  
+}
+
+.quoteContainer2 {
+  width: auto;
+  background-color: rgb(0, 0, 0);
+  height: 1000px;
+  margin: 0px auto 0px auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-image: url("https://static1.squarespace.com/static/5d0ade01fc40e30001b4a6c5/5d0adfa044b0d000015c3862/5dbf80dada741b03e1881519/1573504197132/tumblr_oew5wsIUoP1ug7svjo1_500.gif?format=1500w");
+  display: flex;
+  justify-content: center;
+  
+}
+
+.formContainer {
+  width: auto;
+
+  height: 800px;
+  margin: 0px auto 0px auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://www.wallpapershaze.com/web/wallpapers/mountains-rocks-sea-storm-stormy-waves-white-wind-windy_2560x1440.jpg")
+}
+
+#githubIcon {
+  width: 50px;
+}
