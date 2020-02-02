@@ -294,7 +294,7 @@ animation: AnimationName 19s ease infinite;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url("https://wallpaperaccess.com/full/1314186.jpg");
+  background-image: url(../images/space.jpg);
   display: flex;
   justify-content: center;
   margin: 0px auto 10px auto;
